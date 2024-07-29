@@ -15,7 +15,6 @@ public class AuthorApp {
 		
 		authorDao.deleteAuthor(10);
 		
-		
 		List<AuthorVo> authorList = authorDao.selectAuthorAll(); //new리스트만들어서 주소만 전달한다
 		//System.out.println(authorList);
 		//이름만출력
