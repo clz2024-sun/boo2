@@ -1,4 +1,4 @@
-package com.javex.ex03;
+package com.javaex.ex03;
 
 public class AuthorVo {
 
