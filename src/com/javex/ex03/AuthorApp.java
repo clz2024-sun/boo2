@@ -13,7 +13,7 @@ public class AuthorApp {
 		
 		//int count = authorDao.insertAuthor("황일영", "학원강사");
 		
-		//authorDao.deleteAuthor(9);
+		authorDao.deleteAuthor(10);
 		
 		
 		List<AuthorVo> authorList = authorDao.selectAuthorAll(); //new리스트만들어서 주소만 전달한다
