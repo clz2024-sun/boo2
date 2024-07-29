@@ -6,11 +6,19 @@ public class AuthorApp {
 
 		AuthorDao authorDao = new AuthorDao();
 		
-		int count = authorDao.insertAuthor("황일영", "학원강사");
+		//int count = authorDao.insertAuthor("황일영", "학원강사");
 		
-		//authorDao.deleteAuthor(3);
+		authorDao.deleteAuthor(9);
 		
-		//AuthorVo  authroVo = authorDao.selectAuthor(3);
+		//update() 각자
+		
+		
+		
+		//*selectAll
+		
+		
+		//select  각자
+		
 
 
 	}
