@@ -12,6 +12,13 @@ public class AuthorVo {
 	}
 
 	//메소드-gs
+	public AuthorVo(String authorName, String authorDesc) {
+		this.authorName = authorName;
+		this.authorDesc = authorDesc;
+	}
+
+	
+	//메소드-gs
 	public AuthorVo(int authrId, String authorName, String authorDesc) {
 		this.authrId = authrId;
 		this.authorName = authorName;

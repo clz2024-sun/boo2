@@ -12,6 +12,10 @@ public class AuthorApp {
 		
 		int count = authorDao.insertAuthor("황일영", "학원강사");
 		
+		AuthorVo vo = new AuthorVo("황일영", "학원강사");		
+		int count2 = authorDao.insertAuthor2(vo);
+		
+		
 		authorDao.deleteAuthor(10);
 		
 		List<AuthorVo> authorList = authorDao.selectAuthorAll(); //new리스트만들어서 주소만 전달한다
@@ -25,7 +29,6 @@ public class AuthorApp {
 		AuthorVo authorVo = authorDao.selectAuthor(6);
 		System.out.println(authorVo);
 		
-		//
 
 	}
 
